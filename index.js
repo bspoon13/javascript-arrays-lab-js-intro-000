@@ -1,5 +1,5 @@
 var kittens = ["Milo", "Otis", "Garfield"];
-function destructivelyAppendKitten(name) {
-  var extraKittens = [...kittens, name];
+function destructivelyAppendKitten(inputArray, name) {
+  var extraKittens = [...inputArray, name];
   return extraKittens;
 }
